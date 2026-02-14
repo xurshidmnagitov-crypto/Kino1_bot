@@ -1,4 +1,4 @@
-import asyncio
+ADMINio
 import aiosqlite
 from aiogram import Bot, Dispatcher, F
 from aiogram.types import Message, ReplyKeyboardMarkup, KeyboardButton
@@ -8,7 +8,7 @@ from aiogram.fsm.state import StatesGroup, State
 import os
 
 TOKEN = os.getenv("BOT_TOKEN")
-ADMIN_ID = int(os.getenv("ADMIN ID"))
+ADMIN_ID = int(os.getenv("ADMIN_ID"))
 
 bot = Bot(TOKEN)
 dp = Dispatcher()
@@ -230,3 +230,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
