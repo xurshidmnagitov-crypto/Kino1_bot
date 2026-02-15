@@ -1,4 +1,4 @@
-
+import asyncio
 import aiosqlite
 from aiogram import Bot, Dispatcher, F
 from aiogram.types import Message, ReplyKeyboardMarkup, KeyboardButton
@@ -230,5 +230,6 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
 
